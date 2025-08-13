@@ -7,6 +7,10 @@ Java RESTful API criada para o Bootacamp Santander 2025
 classDiagram
     class User {
         - String name
+        - Account account
+        - Feature[] features
+        - Card card
+        - News[] news
     }
 
     class Account {
